@@ -1,0 +1,2 @@
+awk -F',' 'NR > 1 {sum += $2} END {print sum}' fruits.csv
+AIに聞いたけど理解できたはず。うん。

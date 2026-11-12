@@ -1,0 +1,1 @@
+head -3 logs/access.log & tail -2 logs/access.log

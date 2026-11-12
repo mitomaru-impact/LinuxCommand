@@ -1,0 +1,2 @@
+sed 's/apple/pineapple/g' fruits.csv > data/new_fruits.csv
+AIに聞いた、意味は理解してる。
