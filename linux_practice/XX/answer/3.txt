@@ -1,0 +1,2 @@
+[ec2-user@ip-172-31-9-93 answer]$ wc ../logs/access.log 
+  8  32 243 ../logs/access.log

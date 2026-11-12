@@ -1,0 +1,4 @@
+[ec2-user@ip-172-31-9-93 answer]$ grep -rn "404" ../logs/access.log 
+2:192.168.0.2 GET /about.html 404
+[ec2-user@ip-172-31-9-93 answer]$ grep -rn "500" ../logs/access.log 
+4:192.168.0.3 GET /index.html 500

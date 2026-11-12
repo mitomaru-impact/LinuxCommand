@@ -1,0 +1,7 @@
+[ec2-user@ip-172-31-9-93 answer]$ head -n 3 ../logs/access.log 
+192.168.0.1 GET /index.html 200
+192.168.0.2 GET /about.html 404
+192.168.0.1 POST /login 200
+[ec2-user@ip-172-31-9-93 answer]$ tail -n 2 ../logs/access.log 
+192.168.0.4 GET /about.html 200
+192.168.0.3 POST /login 401

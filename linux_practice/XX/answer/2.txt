@@ -1,0 +1,7 @@
+[ec2-user@ip-172-31-9-93 answer]$ cp -p ../data/file*.txt ../backup/
+[ec2-user@ip-172-31-9-93 answer]$ ll ../backup/
+total 12
+-rw-r--r--. 1 ec2-user ec2-user 7 Nov  5 06:47 file1.txt
+-rw-r--r--. 1 ec2-user ec2-user 7 Nov  5 06:47 file2.txt
+-rw-r--r--. 1 ec2-user ec2-user 7 Nov  5 06:47 file3.txt
+[ec2-user@ip-172-31-9-93 answer]$ 

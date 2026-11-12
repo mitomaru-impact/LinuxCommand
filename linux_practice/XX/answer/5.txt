@@ -1,0 +1,4 @@
+[ec2-user@ip-172-31-9-93 answer]$ find ../data/ -name "*.txt" -type f
+../data/file1.txt
+../data/file2.txt
+../data/file3.txt
